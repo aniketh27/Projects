@@ -1,7 +1,7 @@
 import random
 
 
-number = random.randrange(1,50)
+number = random.randint(1,50)
 while(True):
     guess_number = int(input("Guess the number b/w 1 to 50:\n"))
     if (guess_number == number):
