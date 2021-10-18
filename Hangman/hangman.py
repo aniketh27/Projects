@@ -12,7 +12,6 @@ hidden_word = random.choice(words)
 
 print("----Hangman----")
 guess_word = ''
-
 guess_count = 5
 
 try:
